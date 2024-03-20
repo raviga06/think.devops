@@ -11,7 +11,7 @@ read expenses
 if [ $salary == $expenses ];
  then
     echo "Salary and Expenses are equal"
-elif [$salary != $expenses];
+elif [ $salary != $expenses ];
  then
     echo "Salary and Expenses are not equal"
 fi
